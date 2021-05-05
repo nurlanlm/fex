@@ -47,12 +47,9 @@ class _OtpCodeState extends State<OtpCode> {
                 style: TextStyle(fontSize: 17),
                 textFieldAlignment: MainAxisAlignment.spaceAround,
                 fieldStyle: FieldStyle.underline,
-                onCompleted: (pin) {
-                  print("Completed: " + pin);
-                },
               ),
               SizedBox(
-                height: 90,
+                height: 70,
               ),
               InkWell(
                 splashColor: Colors.red,
